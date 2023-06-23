@@ -315,10 +315,15 @@ section .title::after {
 
 img {
 
-    width: 150px;
-    height: 150px;
-    margin: 20px 0px 20px 20px;
-    ;
+    grid-gap: 2rem;
+    width: 12%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 
 }
 
@@ -527,7 +532,7 @@ footer span a:hover {
 /* responsive media query start */
 
 @media (max-width: 1104px) {
-    .about .about-content .left img {
+    .about .about-content  .left img {
         height: 350px;
         width: 350px;
     }
