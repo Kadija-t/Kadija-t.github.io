@@ -11,7 +11,10 @@
 html {
     scroll-behavior: smooth;
 }
-
+h3{
+    justify-content:center;
+    text-decoration: underline;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -190,7 +193,7 @@ section .title::after {
 /* home section styling */
 .home {
     display: flex;
-    background: url("./images/laptop.jpg") no-repeat center;
+    background: url("./images/laptop-wallpaper.jpg") no-repeat center;
     height: 100vh;
     color: #000;
     min-height: 500px;
@@ -312,18 +315,69 @@ section .title::after {
 .skills .title::after {
     content: "Je peux...";
 }
-
-img {
+.html {
 
     grid-gap: 2rem;
-    width: 12%;
+    width: 10%;
     padding: 8px;
     align-items: center;
     display: inline-flex;
-    justify-content: space-evenly;
+    margin-left: -20px;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
+
+}
+.css {
+
+    grid-gap: 2rem;
+    width: 8%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    margin-left:60px;
+    flex-wrap: wrap;
+
+}
+.js {
+
+    grid-gap: 2rem;
+    width: 8.5%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    margin-left:60px;
+    flex-wrap: wrap;
+
+}
+.symfony {
+
+    grid-gap: 2rem;
+    width: 22%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.php {
+
+    grid-gap: 2rem;
+    width: 15%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    margin-left:60px;
+    flex-wrap: wrap;
+
+}
+.mysql {
+
+    grid-gap: 2rem;
+    width: 15%;
+    padding: 8px;
+    align-items: center;
+    display: inline-flex;
+    margin-left:60px;
+    flex-wrap: wrap;
 
 }
 
@@ -391,6 +445,30 @@ img {
 
 .projects .carousel .card:hover img {
     border-color: #fff;
+}
+
+/*slide cards- dot*/
+
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid rgb(107, 20, 220)!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: rgb(107, 20, 220)!important;
 }
 
 

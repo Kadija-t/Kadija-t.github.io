@@ -37,15 +37,17 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Developpeuse web"],
-    typeSpeed: 150,
+    strings: ["Kadija"],
+    typeSpeed: 250,
     loop : true
    
   });
-
   // owl carousel script
   $(".carousel").owlCarousel({
     margin: 20,
+    loop: true,
+    autoplay: true,
+    autoplayTimeOut: 2000,
     autoplayHoverPause: true,
     responsive: {
       0: {
